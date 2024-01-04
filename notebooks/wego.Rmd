@@ -1,0 +1,12 @@
+```{r}
+library(tidyverse)
+library(arrow)
+```
+
+```{r}
+df <- read_parquet('/Users/treyshanks/data_science/shiny-starter-shanks-t/app/wego-clean.parquet')
+```
+
+```{r}
+glimpse(df)
+```
